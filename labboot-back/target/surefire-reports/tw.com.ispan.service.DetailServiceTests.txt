@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: tw.com.ispan.service.DetailServiceTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! -- in tw.com.ispan.service.DetailServiceTests
+tw.com.ispan.service.DetailServiceTests.testFindById -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "tw.com.ispan.service.DetailService.select(java.lang.Integer)" because "this.detailService" is null
+	at tw.com.ispan.service.DetailServiceTests.testFindById(DetailServiceTests.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

@@ -1,0 +1,6 @@
+tw/com/ispan/jwt/JsonWebTokenUtilityTests.class
+tw/com/ispan/jwt/JsonWebTokenInterceptor.class
+tw/com/ispan/service/ProductServiceTests.class
+tw/com/ispan/LabbootBackApplicationTests.class
+tw/com/ispan/service/DetailServiceTests.class
+tw/com/ispan/service/CustomerServiceTests.class

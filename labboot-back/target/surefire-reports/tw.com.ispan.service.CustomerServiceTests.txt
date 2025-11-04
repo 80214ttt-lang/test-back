@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: tw.com.ispan.service.CustomerServiceTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! -- in tw.com.ispan.service.CustomerServiceTests
+tw.com.ispan.service.CustomerServiceTests.testLogin -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "tw.com.ispan.service.CustomerService.login(String, String)" because "this.customerService" is null
+	at tw.com.ispan.service.CustomerServiceTests.testLogin(CustomerServiceTests.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+tw.com.ispan.service.CustomerServiceTests.testUpdate -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "tw.com.ispan.service.CustomerService.changePassword(String, String, String)" because "this.customerService" is null
+	at tw.com.ispan.service.CustomerServiceTests.testUpdate(CustomerServiceTests.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

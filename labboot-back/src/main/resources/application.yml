@@ -11,6 +11,11 @@ spring:
     ansi:
       enabled: always
 
+  # 讀取組態設定檔
+  profiles:
+    validate: false
+    active: '@xxxx@'
+
   # 資料庫連線設定
   datasource:
     url: jdbc:sqlserver://localhost:9433;database=java;encrypt=true;trustServerCertificate=true
